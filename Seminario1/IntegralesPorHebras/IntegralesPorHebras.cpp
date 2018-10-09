@@ -1,6 +1,6 @@
 // Ejercicio planteado en la UGR
 // Resuelto por Pablo Cordero Romero
------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
 // Sistemas concurrentes y Distribuidos.
 // Seminario 1. Programación Multihebra y Semáforos.
 //

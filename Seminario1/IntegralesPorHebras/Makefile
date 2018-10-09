@@ -7,8 +7,8 @@ EJECUTABLE=IntegralesPorHebras
 ejecutar: compilar
 	./$(EJECUTABLE)
 
-compilar: 
-	g++ -std=c++11 -pthread -o $(EJECUTABLE) IntegralesPorHebras.cpp
+compilar: IntegralesPorHebras.cpp
+	g++ -std=c++11 -pthread -o IntegralesPorHebras IntegralesPorHebras.cpp
 
 clean:
 	rm -R $(EJECUTABLE)
