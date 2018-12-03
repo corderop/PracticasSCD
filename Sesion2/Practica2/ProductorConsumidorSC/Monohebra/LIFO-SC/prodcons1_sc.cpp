@@ -153,7 +153,6 @@ int ProdCons1SC::leer(  )
    primera_libre-- ;
    const int valor = buffer[primera_libre] ;
 
-
    // señalar al productor que hay un hueco libre, por si está esperando
    libres.notify_one();
 
